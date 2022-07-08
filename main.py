@@ -49,8 +49,8 @@ class InternetSpeedTwitterBot:
             else:
                 break
 
-        print(self.down)
-        print(self.up)
+        # print(self.down)
+        # print(self.up)
 
     def tweetAtProvider(self):
         self.driver.get(TWITTER_URL)
